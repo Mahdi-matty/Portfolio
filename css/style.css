@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.411);
+    box-sizing: border-box;
+}
+.nav {
+    display: flex;
+    position: relative;
+    left: 1000px;
+}
+.nav li {
+    display: inline;
+    font-size: 35px;
+    margin: 0px 15px;
+
+}
+/* deviding two column by adding a line between*/
+.second {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+.sechead {
+    flex: 1;
+    text-align:left;
+    border-right: 7px solid blue;
+}
+.secproject {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* images should be flex and first one bigger*/
+.marketing {
+    width: 90%;
+    border: 5px solid blue;
+    outline:3px solid white;
+    margin: 5px;
+}
+.marketing img {
+    width: 90%;
+}
+.welcome, .portfolio {
+    width: 44%;
+    border: 4px solid blue;
+    outline: 3px solid white;
+    margin: 5px;
+}
+.welcome img, .portfolio img {
+    width: 90%;
+}
+
+.leftme {
+    flex: 1;
+    text-align: left;
+    border-right: 7px solid blue;
+    position: relative;
+    width: 24.4%;
+    font-size: 65px;
+}
+
+.rightme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 10px;
+    position: relative;
+    width: 74.6%;
+    font-size: 35px
+}
+.htc {
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    height: 250px;
+    margin: 10px 0px;
+}
+.leftc {
+    flex: 1;
+    text-align: left;
+    border-right: 7px solid blue;
+    position: relative;
+    width: 24.4%;
+    font-size: 65px;
+}
+.rightc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 40px;
+    position: relative;
+    width: 74.6%;
+}
+/* make profile picture flex*/
+.imgdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 40px;
+    position: relative;
+
+}
+.begin {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.introd {
+    flex: 1;
+    text-align: left;
+    position: relative;
+    width: 24.4%;
+    font-size: 65px;
+
+}
+
+.me {
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    height: 250px;
+}
+/* media queries for smaller screen*/
+@media screen and (max-width="900px") {
+    .imgdiv {
+        width: 80%;
+    }
+    
+}
